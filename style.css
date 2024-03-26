@@ -1,0 +1,69 @@
+body{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   background-color:hsl(216, 12%, 8%) ;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.main-container{
+    background-color: hsl(213, 19%, 18%);
+    color:hsl(0, 0%, 100%) ;
+    width:100%;
+    width:300px ;
+    margin: 100px auto;
+    padding: 25px;
+    border-radius: 25px;
+}
+.star-img{
+    background-color:hsl(213, 19%, 28%); 
+    margin-top: 10px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+
+}
+p{
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    
+}
+.rate-num{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    
+}
+.rate-num .num{
+    background-color:hsl(213, 19%, 28%);
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:hsl(217, 12%, 63%) ;
+    
+   
+}
+.but-container{
+    text-align: center;
+}
+button{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: hsl(25, 97%, 53%);
+    outline: none;
+    border: none;
+    padding:10px 10px;
+    font-size: 16px;
+    color: hsl(0, 0%, 100%); 
+    border-radius: 30px;
+    cursor: pointer;
+    width: 300px; 
+   
+}
